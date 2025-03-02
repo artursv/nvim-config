@@ -50,6 +50,10 @@ return {
           path_display = { "smart" },
           dynamic_preview_title = true,
           winblend = 10,
+          file_ignore_patterns = {
+            "%.png$", "%.jpg$", "%.jpeg$", "%.gif$", "%.bmp$", "%.webp$", "%.ico$", "%.svg$",
+            "%.exe$", "%.dll$", "%.bin$", "%.so$", "%.o$", "%.a$", "%.out$", "%.class$", "%.jar$", "%.pyc$", "%.pyo$", "%.zip$", "%.tar$", "%.gz$", "%.bz2$", "%.7z$", "%.rar$"
+          },
         },
         pickers = {
           find_files = {
